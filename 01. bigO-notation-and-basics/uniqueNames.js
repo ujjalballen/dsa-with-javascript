@@ -1,6 +1,6 @@
 
 // Outer loop runs n times (n = names.length).
-// and .includes() is itself a loop. it check every element of allUniqueNames
+// and allUniqueNames.includes() is itself a loop. it check every element of allUniqueNames
 // so allUniqueNames becomes size n. If allUniqueNames has 100 elements, then it checks 100 times
 // so now n * n = O(n²) time complexity
 
