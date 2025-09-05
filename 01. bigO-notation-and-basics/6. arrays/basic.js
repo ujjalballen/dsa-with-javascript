@@ -6,7 +6,7 @@ const a = nums.slice(1, 5);
 
 // nums.splice(2, 4);
 // nums.splice(2, 0, 11, 20)
-console.log(a)
+// console.log(a)
 
 nums.map((num, index, nums) => {
     return num + 1;
@@ -14,7 +14,7 @@ nums.map((num, index, nums) => {
 
 
 nums.filter((num, index, nums) => {
-     return num <= 3
+    return num <= 3
 });
 
 
@@ -30,3 +30,37 @@ nums.reduce((previousValue, currentValue) => {
 }, 0)
 
 // console.log(result)
+
+
+let one = [1, 2, 3, 4];
+let two = [2, 4, 5];
+
+const newArray = one.concat(two);
+// console.log(newArray)
+
+const newSlice = newArray.slice(0, 3)
+
+const getSlice = newArray.slice(-2);
+
+// console.log(newSlice)
+
+
+const names = ['red', 'green', 'yellow'];
+names.splice(0, 1, 'oooo')
+
+// console.log(names)
+const aNums = [2, 5, 4, 6];
+// aNums.fill(0);
+aNums.fill(5, 3);
+// console.log(aNums)
+
+
+// const result2 = aNums.indexOf(5);
+// const result2 = aNums.findIndex((index) => index === 4) 
+// console.log(result2)
+
+const nestedArray = [1, [2, 5, 4], [[8, 4, 5, 8]], 5, 55];
+
+// const newOne = nestedArray.flat(); // it will remove the array
+const newOne = nestedArray.flat(2); // it will remove the array
+console.log(newOne)
