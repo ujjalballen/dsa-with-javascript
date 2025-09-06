@@ -63,4 +63,40 @@ const nestedArray = [1, [2, 5, 4], [[8, 4, 5, 8]], 5, 55];
 
 // const newOne = nestedArray.flat(); // it will remove the array
 const newOne = nestedArray.flat(2); // it will remove the array
-console.log(newOne)
+// console.log(newOne)
+
+
+// reverse
+const nums4 = [1, 2, 3, 4, 5, 6];
+
+// console.log(nums4);
+
+nums4.reverse();
+
+// console.log(nums4)
+
+
+let numbers = [5, 30, 100, 7];
+
+// Ascending Order
+
+numbers.sort((a, b) => a - b);
+
+// Descending Order
+numbers.sort((a, b) => b-a)
+
+// console.log(numbers)
+
+
+let users = [
+  { name: "Alice", age: 25 },
+  { name: "Bob", age: 40 },
+  { name: "Charlie", age: 30 }
+];
+
+
+users.sort((a, b) => b.age - a.age)
+users.sort((a, b) => a.age - b.age)
+// console.log(users)
+
+
