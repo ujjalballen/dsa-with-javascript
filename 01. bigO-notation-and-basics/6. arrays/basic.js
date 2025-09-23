@@ -33,7 +33,11 @@ nums.reduce((previousValue, currentValue) => {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 let one = [1, 2, 3, 4, 5, 6];
+=======
+let one = [1, 2, 3, 4];
+>>>>>>> 98808da4b4786b4f0daaae1b1610572c2b760702
 =======
 let one = [1, 2, 3, 4];
 >>>>>>> 98808da4b4786b4f0daaae1b1610572c2b760702
@@ -43,17 +47,23 @@ const newArray = one.concat(two);
 // console.log(newArray)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const newSlice = one.slice(0, 3)
 
 const getSlice = newArray.slice(-2);
 
 console.log(newSlice)
 =======
+=======
+>>>>>>> 98808da4b4786b4f0daaae1b1610572c2b760702
 const newSlice = newArray.slice(0, 3)
 
 const getSlice = newArray.slice(-2);
 
 // console.log(newSlice)
+<<<<<<< HEAD
+>>>>>>> 98808da4b4786b4f0daaae1b1610572c2b760702
+=======
 >>>>>>> 98808da4b4786b4f0daaae1b1610572c2b760702
 
 
@@ -96,7 +106,11 @@ numbers.sort((a, b) => a - b);
 
 // Descending Order
 <<<<<<< HEAD
+<<<<<<< HEAD
 numbers.sort((a, b) => b - a)
+=======
+numbers.sort((a, b) => b-a)
+>>>>>>> 98808da4b4786b4f0daaae1b1610572c2b760702
 =======
 numbers.sort((a, b) => b-a)
 >>>>>>> 98808da4b4786b4f0daaae1b1610572c2b760702
@@ -106,9 +120,15 @@ numbers.sort((a, b) => b-a)
 
 let users = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     { name: "Alice", age: 25 },
     { name: "Bob", age: 40 },
     { name: "Charlie", age: 30 }
+=======
+  { name: "Alice", age: 25 },
+  { name: "Bob", age: 40 },
+  { name: "Charlie", age: 30 }
+>>>>>>> 98808da4b4786b4f0daaae1b1610572c2b760702
 =======
   { name: "Alice", age: 25 },
   { name: "Bob", age: 40 },
